@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document type="Open Screenplay Format document" version="21">
+	 <info uuid="9BCC72D3-5736-46A9-9BE6-44CAACDE65C1" pageCount="4"/>
+ 	<settings pageWidth="2159" pageHeight="2794" marginTop="317" marginBottom="220" marginLeft="317" marginRight="317" normalLinesPerInch="6.0" breakOnSentences="true" dialogueContinues="true" contText="(cont'd)" moreText="(MORE)" scenesContinue="true" continuedText="CONTINUED" autoOmitScenes="true" omittedText="OMITTED" sceneTimeSeparator=" - " pageNumbering="true" pagesLocked="true" pageNumberFormat="#." pageNumberStart="1" pageNumberFirst="false" pageFooter="" revision="2" showRevisions="true" showAllRevisions="true" sceneNumbering="true" sceneNumberStart="1" scenesLocked="true" dialogueNumbering="false" dialogueNumberStart="1" dialogueNumberFormat="()"/>
+	<styles>
+		<style name="Normal Text" builtin="1" builtInIndex="0" label="Normal Text" font="Courier Screenplay" size="12"/>
+		<style name="Scene Heading" builtin="1" builtInIndex="1" label="Scene Heading" baseStyleName="Normal Text" styleEnter="Action" font="Courier Screenplay" size="12" spaceBefore="2" keepWithNext="1" allCaps="1"/>
+		<style name="Action" builtin="1" builtInIndex="2" label="Action" baseStyleName="Normal Text" styleTabBefore="Character" styleTabAfter="Character" font="Courier Screenplay" size="12" spaceBefore="1"/>
+		<style name="Character" builtin="1" builtInIndex="3" label="Character" baseStyleName="Normal Text" styleEnter="Dialogue" styleTabBefore="Action" styleTabAfter="Action" font="Courier Screenplay" size="12" spaceBefore="1" keepWithNext="1" leftIndent="635" allCaps="1"/>
+		<style name="Parenthetical" builtin="1" builtInIndex="4" label="Parenthetical" baseStyleName="Normal Text" styleEnter="Dialogue" styleTabBefore="Dialogue" styleTabAfter="Dialogue" font="Courier Screenplay" size="12" keepWithNext="1" leftIndent="508" rightIndent="508"/>
+		<style name="Dialogue" builtin="1" builtInIndex="5" label="Dialogue" baseStyleName="Normal Text" styleEnter="Action" styleTabBefore="Parenthetical" styleTabAfter="Parenthetical" font="Courier Screenplay" size="12" leftIndent="330" rightIndent="254"/>
+		<style name="Transition" builtin="1" builtInIndex="6" label="Transition" baseStyleName="Normal Text" styleEnter="Scene Heading" font="Courier Screenplay" size="12" spaceBefore="1" align="right" leftIndent="1016" rightIndent="127" allCaps="1"/>
+		<style name="Shot" builtin="1" builtInIndex="7" label="Shot" baseStyleName="Normal Text" styleEnter="Action" font="Courier Screenplay" size="12" spaceBefore="1" keepWithNext="1" allCaps="1"/>
+		<style name="Title" label="Title" baseStyleName="Action" styleEnter="Action" styleTabAfter="Action" font="Courier Screenplay" size="12" bold="1" italic="0" underline="1" color="#000000" spaceBefore="0" column="0" lineSpacing="1.0" keepWithNext="1" align="center" leftIndent="0" rightIndent="0"/>
+		<style name="Heading" label="Heading" baseStyleName="Normal Text" styleEnter="Action" styleTabAfter="Action" font="Courier Screenplay" size="12" bold="0" italic="0" underline="1" color="#7F7F7F" spaceBefore="2" column="0" lineSpacing="1.0" keepWithNext="1" align="left" leftIndent="0" rightIndent="0"/>
+		<style name="Left column" label="Left column" baseStyleName="Action" font="Courier Screenplay" size="12" spaceBefore="1" column="1" lineSpacing="1.0" keepWithNext="0" align="left" leftIndent="0" rightIndent="571"/>
+		<style name="Right column" label="Right column" baseStyleName="Action" font="Courier Screenplay" size="12" spaceBefore="1" column="2" lineSpacing="2.0" keepWithNext="0" align="left" leftIndent="1016" rightIndent="0"/>
+	</styles>
+	<paragraphs>
+		<para pageNumber="1">
+			<style baseStyleName="Title"/>
+			<text>Open Screenplay Format v2.1 (</text>
+			<text revision="2">13-01-2015</text>
+			<text>)</text>
+			<marks>
+				<mark at="39" revision="2"/>
+			</marks>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Heading"/>
+			<text>Built-in elements:</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Scene Heading"/>
+			<text>Scene Heading</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action"/>
+			<text>Action</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Character"/>
+			<text>Character</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Parenthetical"/>
+			<text>parenthetical</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Dialogue"/>
+			<text>Dialogue</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Transition"/>
+			<text>Transition:</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Shot"/>
+			<text>Shot</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Heading"/>
+			<text>Character-level formatting:</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action"/>
+			<text bold="1">Bold text</text>
+			<text italic="1">Italic text</text>
+			<text underline="1">Underlined text</text>
+			<text></text>
+			<text strikeThrough="1">strikeThrough text</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action"/>
+ 			<text bold="1" italic="1">Bold-italic text</text>
+			<text bold="1" italic="1" underline="1">Bold-italic-underlined text</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action"/>
+			<text font="Times New Roman" size="16">Times New Roman 16</text>
+			<text font="Times New Roman" size="10">Times New Roman 10</text>
+			<text size="14">Courier Screenplay 14</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action"/>
+			<text bgColor="#00FF00">Green-highlighted</text>
+			<text>text</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action"/>
+			<text bgColor="#FFFF00">Yellow-highlighted</text>
+			<text>text</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Heading"/>
+			<text>Paragraph-level formatting:</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action"/>
+			<text>Left aligned text (default)</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action" align="center"/>
+			<text>Center-aligned text</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action" align="right"/>
+			<text>Right-aligned text</text>
+		</para>
+		<para pageNumber="1" note="Note content">
+			<style baseStyleName="Action"/>
+			<text>A paragraph with a note.</text>
+		</para>
+		<para pageNumber="1" synopsis="Synopsis content" synopsisColor="#40A0FF">
+			<style baseStyleName="Action"/>
+			<text>A paragraph with synopsis content.</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action"/>
+			<text>This is a paragraph with a</text>
+			<text link="http://www.google.com">URL link</text>
+			<text>.</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action"/>
+			<text>This is a line with a</text>
+			<text link="Bookmark">link</text>
+ 			<text>to the...</text>
+		</para>
+		<para pageNumber="1" bookmark="Bookmark">
+			<style baseStyleName="Action"/>
+			<text>...following line's bookmark named "Bookmark".</text>
+		</para>
+		<para pageNumber="1">
+			<style baseStyleName="Action" rightIndent="584"/>
+			<text>This is a single line with an adjusted line length.</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>This is a line with a
+		soft return.</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Character" dualDialogue="1"/>
+			<text>Character</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Dialogue"/>
+			<text>Dual dialogue</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Character"/>
+			<text>Character 2</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Dialogue"/>
+			<text>Dual dialogue</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Left column"/>
+			<text>Text in columns is different from dual dialogue, in that it's not tied to Character/Dialogue, and margins can be set arbitrarily.</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Right column"/>
+			<text>Here is some double-spaced text in the right-hand column.</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Heading"/>
+			<text>Revisions:</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text revision="1">An element completely marked as a Blue revision.</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>An element partially marked as a</text>
+			<text revision="2">Pink revision</text>
+			<text>.</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>An element with a deletion mark right before the last word.</text>
+			<marks>
+				<mark at="54" revision="2"/>
+			</marks>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Heading"/>
+			<text>Page and scene number locking:</text>
+		</para>
+		<para sceneNumber="1" pageNumber="2">
+			<style baseStyleName="Scene Heading"/>
+			<text>Int. first location - day</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>Scene numbers and page numbers in this document are locked. When not locked, the sceneNumber or pageNumber attribute is ignored. But when scene numbers and/or page numbers are locked, the appropriate attribute is used to force the number.</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>Note that the first "SCENE HEADING" example in this document has its sceneNumber set to an empty number ("").</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>This scene will break onto the next page (by typing additional lines after locking):</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>1</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>2</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>3</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>4</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>5</text>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text revision="2">6</text>
+			<marks>
+				<mark at="1" revision="2"/>
+			</marks>
+		</para>
+		<para>
+			<style baseStyleName="Action"/>
+			<text revision="2">7</text>
+			<marks>
+				<mark at="1" revision="2"/>
+			</marks>
+		</para>
+		<para>
+			<style baseStyleName="Action"/>
+			<text revision="2">8</text>
+			<marks>
+				<mark at="1" revision="2"/>
+			</marks>
+		</para>
+		<para>
+			<style baseStyleName="Action"/>
+			<text revision="2">9</text>
+			<marks>
+				<mark at="1" revision="2"/>
+			</marks>
+		</para>
+		<para>
+			<style baseStyleName="Action"/>
+			<text revision="2">10</text>
+			<marks>
+				<mark at="2" revision="2"/>
+			</marks>
+		</para>
+		<para pageNumber="2">
+			<style baseStyleName="Action"/>
+			<text>...and if pages 1, 2, and 3 were locked, this would become an unlocked page 2A.</text>
+		</para>
+		<para sceneNumber="2" pageNumber="3">
+			<style baseStyleName="Scene Heading" pageBreakBefore="1"/>
+			<text>Int. Second location - night</text>
+		</para>
+		<para pageNumber="3">
+			<style baseStyleName="Action"/>
+			<text>This scene heading has the page break attribute set, causing it to begin on a new page.</text>
+		</para>
+	</paragraphs>
+	<titlePage>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para bookmark="Title">
+			<style baseStyleName="Normal Text" align="center"/>
+			<text underline="1">Open Screenplay Format</text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text" align="center"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text" align="center"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text" align="center"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text" align="center"/>
+			<text>Written by</text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text" align="center"/>
+			<text></text>
+		</para>
+		<para bookmark="Author">
+			<style baseStyleName="Normal Text" align="center"/>
+			<text>Author's Name</text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para bookmark="Copyright">
+			<style baseStyleName="Normal Text"/>
+			<text>Copyright (c)</text>
+			<text revision="2">2015</text>
+			<marks>
+				<mark at="18" revision="2"/>
+			</marks>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para bookmark="Draft">
+			<style baseStyleName="Normal Text"/>
+			<text>Version 2.0
+		</text>
+			<text revision="2">January 13</text>
+			<text>, </text>
+			<text revision="2">2015</text>
+			<marks>
+				<mark at="22" revision="2"/>
+			</marks>
+		</para>
+		<para>
+			<style baseStyleName="Normal Text"/>
+			<text></text>
+		</para>
+		<para bookmark="Contact">
+			<style baseStyleName="Normal Text"/>
+			<text>http://sourceforge.net/projects/openscrfmt/</text>
+		</para>
+	</titlePage>
+	<spelling language="en_US">
+		<userDictionary>
+			<entry word="strikeThrough"/>
+			<entry word="bitfield"/>
+		</userDictionary>
+	</spelling>
+	<lists>
+		<characters>
+			<character name="Character"/>
+			<character name="Character 2"/>
+		</characters>
+		<locations>
+			<location name="Scene Heading"/>
+			<location name="first location"/>
+			<location name="Second location"/>
+		</locations>
+		<sceneIntros>
+			<sceneIntro name="INT."/>
+			<sceneIntro name="EXT."/>
+			<sceneIntro name="INT./EXT."/>
+			</sceneIntros>
+		<sceneTimes>
+			<sceneTime name="DAY"/>
+			<sceneTime name="NIGHT"/>
+			<sceneTime name="MORNING"/>
+			<sceneTime name="AFTERNOON"/>
+			<sceneTime name="EVENING"/>
+			<sceneTime name="LATER"/>
+			<sceneTime name="MOMENTS LATER"/>
+			<sceneTime name="CONTINUOUS"/>
+			<sceneTime name="THE NEXT DAY"/>
+		</sceneTimes>
+		<extensions>
+			<extension name="(V.O.)"/>
+			<extension name="(O.S.)"/>
+			<extension name="(O.C.)"/>
+			<extension name="(SUBTITLE)"/>
+		</extensions>
+		<transitions>
+			<transition name="CUT TO:"/>
+			<transition name="FADE IN:"/>
+			<transition name="FADE OUT"/>
+			<transition name="FADE TO:"/>
+			<transition name="DISSOLVE TO:"/>
+			<transition name="BACK TO:"/>
+			<transition name="MATCH CUT TO:"/>
+			<transition name="JUMP CUT TO:"/>
+			<transition name="FADE TO BLACK"/>
+		</transitions>
+		<revisionColors>
+			<revisionColor name="White" index="0" colorName="White" colorIndex="0"/>
+			<revisionColor name="Blue" index="1" colorName="Blue" colorIndex="1"/>
+			<revisionColor name="Pink" index="2" colorName="Pink" colorIndex="2"/>
+			<revisionColor name="Yellow" index="3" colorName="Yellow" colorIndex="3"/>
+			<revisionColor name="Green" index="4" colorName="Green" colorIndex="4"/>
+			<revisionColor name="Goldenrod" index="5" colorName="Goldenrod" colorIndex="5"/>
+			<revisionColor name="Buff" index="6" colorName="Buff" colorIndex="6"/>
+			<revisionColor name="Salmon" index="7" colorName="Salmon" colorIndex="7"/>
+			<revisionColor name="Cherry" index="8" colorName="Cherry" colorIndex="8"/>
+			<revisionColor name="Tan" index="9" colorName="Tan" colorIndex="9"/>
+		</revisionColors>
+		<tagCategories>
+			<tagCategory name="Cast"/>
+			<tagCategory name="Extras"/>
+			<tagCategory name="Stunts"/>
+			<tagCategory name="Vehicles"/>
+			<tagCategory name="Props"/>
+			<tagCategory name="Special Effects"/>
+			<tagCategory name="Costumes"/>
+			<tagCategory name="Makeup"/>
+			<tagCategory name="Animals"/>
+			<tagCategory name="Animal Handler"/>
+			<tagCategory name="Music"/>
+			<tagCategory name="Sound"/>
+			<tagCategory name="Set Dressing"/>
+			<tagCategory name="Greenery"/>
+			<tagCategory name="Special Equipment"/>
+			<tagCategory name="Security"/>
+			<tagCategory name="Additional Labor"/>
+			<tagCategory name="Visual FX"/>
+			<tagCategory name="Mechanical FX"/>
+			<tagCategory name="Miscellaneous"/>
+			<tagCategory name="Notes"/>
+		</tagCategories>
+	</lists>
+</document>
